@@ -1,0 +1,82 @@
+.close{
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+    margin-top: 50px;
+    margin-right: 70px;
+  font-size: 13px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 425px){
+    .close{
+        margin-right: 40px;
+    }
+}
+
+.navtablink li{
+    /* margin-top: 20px; */
+    display: block;
+    justify-content: right;
+    align-items: right;
+    list-style-type: none; 
+}
+.navtablink1{
+line-height: 60px;
+margin-left: 60px;
+    color: #111;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    list-style-type: none; 
+}
+@media only screen and (max-width: 425px){
+    .navtablink1{
+        margin-left: 5px;
+    }
+}
+
+.navtablinkcontact{
+    margin-left: 60px;
+    line-height: 150px;
+    color: #111;
+    text-decoration: none;
+
+
+}
+
+.navtabbutton button{
+
+    margin-left: 80px;
+    background-color: #111;
+    color: #fff;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+ 
+    font-size: 14px;
+    transition: all 0.7s ease-in-out;
+}
+@media only screen and (max-width: 425px){
+    .navtabbutton button{
+        margin-left: 30px;
+        font-size: 18px;
+    }
+}
+.navtabbutton button:hover{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navfabars{
+    margin-top: 25px;
+    font-size: 40px;
+    background-color: #fff;
+    color: rgb(66, 60, 60);
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+

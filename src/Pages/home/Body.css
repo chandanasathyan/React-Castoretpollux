@@ -1,0 +1,116 @@
+/* .imagecontainer{
+position: relative;
+    margin-top: -350px;
+}  */
+
+
+ /* .bit-img1{
+mix-blend-mode: darken;
+
+}  */
+
+.bit-img11{
+   width: 100%;
+   margin-top: -190px;
+transform: translateX(510px);
+
+}
+
+@media only screen and (max-width:1024px){
+    .bit-img11{
+        width: 80%;
+        margin-top: -175px;
+        transform: translateX(330px);
+     }
+}
+@media only screen and (max-width:768px){
+    .bit-img11{
+        width: 92%;
+        margin-top: -8px;
+        transform: translateX(60px);
+     }
+}
+@media only screen and (max-width:425px){
+    .bit-img11{
+        width: 89%;
+        margin-top: -8px;
+        transform: translateX(40px);
+     }
+}
+@media only screen and (max-width:375px){
+    .bit-img11{
+        width: 89%;
+        margin-top: -8px;
+        transform: translateX(35px);
+     }
+}
+@media only screen and (max-width:320px){
+    .bit-img11{
+        width: 89%;
+        margin-top: -8px;
+        transform: translateX(33px);
+     }
+}
+
+
+
+
+.bit-img22{
+    width: 100%;
+transform: translateY(-570px);
+}
+
+@media only screen and (max-width:1024px){
+    .bit-img22{
+        width: 65%;
+        transform: translateY(-370px);
+     }
+}
+@media only screen and (max-width:768px){
+    .bit-img22{
+        width: 90%;
+        transform: translateY(-40px);
+     }
+}
+
+@media only screen and (max-width:425px){
+    .bit-img22{
+        width: 73%;
+        transform: translateY(-60px);
+     }
+}
+
+.bit-img33{
+    width: 100%;
+transform: translateX(100px);
+margin-top: 5px;
+}
+
+@media only screen and (max-width:1024px){
+    .bit-img33{
+        width: 40%;
+    margin-left: 500px;
+  transform: translateY(-450px);
+}
+}
+@media only screen and (max-width:768px){
+    .bit-img33{
+        width: 55%;
+    margin-left: 220px;
+  transform: translateY(-40px);
+}
+}
+@media only screen and (max-width:425px){
+    .bit-img33{
+        width: 55%;
+    margin-left: 125px;
+  transform: translateY(-90px);
+}
+}
+@media only screen and (max-width:320px){
+    .bit-img33{
+        width: 55%;
+    margin-left: 100px;
+  transform: translateY(-90px);
+}
+}

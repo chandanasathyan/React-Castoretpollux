@@ -1,23 +1,76 @@
-import logo from './logo.svg';
+
+import { useEffect, useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Footer from './components/footer/Footer';
+import Header from './components/header/Header';
+import Contact from './Pages/contact/Contact';
+import Home from './Pages/home/Home';
+import {motion} from "framer-motion";
+import { height, margin } from '@mui/system';
+
+
 
 function App() {
+
+  // const [mouseposition,setMouseposition] = useState({
+  //   x:0,
+  //   y:0
+  // })
+
+// const [cursorvarient,setCursorvarient]  =  useState("default")
+
+
+//   useEffect(()=>{
+
+// const mouseMove = e =>{
+// setMouseposition({
+  
+//   x: e.clientX,
+//   y: e.clientY
+// })
+
+// }
+
+
+// window.addEventListener("mousemove",mouseMove)
+
+// return () =>{
+//   window.removeEventListener("mousemove",mouseMove)
+// }
+//   },[])
+
+// const variants = {
+//   default:{
+//     x:mouseposition.x,
+//     y:mouseposition.y
+
+//   }
+// }
+
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+   
+  
+    <Header/>
+    
+    {/* <motion.div className='cursor'
+      variants={variants}      animate="default"  /> */}
+   
+
+      
+    <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/contact" element={<Contact/>} />
+      </Routes>
+    
+    <Footer/>
+
+
     </div>
   );
 }

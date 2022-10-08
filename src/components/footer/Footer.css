@@ -1,0 +1,121 @@
+.footer{
+    margin-top: 300px;
+    display: flex;
+    text-decoration: none;
+margin-left: 60px;
+padding-bottom: 30px;
+color: rgb(27, 24, 24);
+font-size: 13px;
+}
+@media only screen and (max-width: 1024px){
+    .footer{
+      font-size: 12px;
+    }
+}
+
+
+.foot{
+
+    display: flex;
+    margin-left: 370px;
+}
+@media only screen and (max-width: 1024px){
+    .foot{
+      font-size: 12px;
+      margin-left: 80px;
+    }
+}
+.footlink1{
+    list-style-type: none; 
+    margin: 15px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.5s ease-out;
+}
+.footlink1:hover{
+    color: rgb(74, 74, 231);
+}
+.footlink{
+    list-style-type: none; 
+    margin: 15px;
+    position: relative;
+    cursor: pointer;
+ 
+    }
+    
+    .footlink::before{
+
+        content: "";
+        background-color: #111;
+        height: 2px;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 3px;
+        transform: scaleX(0);
+        transform-origin: right;
+      transition: transform 0.5s ease-in-out;
+    
+    }
+    .footlink:hover::before{
+
+      transform: scaleX(1);
+        transform-origin: left;
+    }
+
+
+
+    /* tab */
+
+    .tabfooter{
+      margin-top: 300px;
+      display: block;
+      text-decoration: none;
+  margin-left: 50px;
+  padding-bottom: 30px;
+  color: rgb(27, 24, 24);
+  font-size: 11px;
+    }   
+    @media only screen and (max-width: 425px){
+      .tabfooter{
+        margin-left: 19px;
+      }
+    }
+
+    @media only screen and (max-width: 320px){
+      .tabfooter{
+        margin-left: 14px;
+      }
+    }
+
+    .tabfooter1{
+      margin-top: 300px;
+      display: block;
+      text-decoration: none;
+  /* margin-left: 50px; */
+  padding-bottom: 30px;
+  color: rgb(27, 24, 24);
+  font-size: 11px;
+    } 
+
+ 
+    .tabfooter2{
+  
+      display: block;
+      text-decoration: none;
+  margin-left: 50px;
+  padding-bottom: 30px;
+  color: rgb(27, 24, 24);
+  font-size: 11px;
+    }    
+    @media only screen and (max-width: 425px){
+      .tabfooter2{
+        margin-left: 19px;
+      }
+    }
+    @media only screen and (max-width: 320px){
+      .tabfooter2{
+        margin-left: 14px;
+      }
+    }
+    
